@@ -1,0 +1,5 @@
+[brightness]
+enable_ddcutil = true
+
+[widget.clock]
+format = "{:%H:%M:%S}"

@@ -1,0 +1,95 @@
+# ~/.config/ghostty/config.ghostty
+
+
+# ─────────────────────────────────────
+# Theme
+# ─────────────────────────────────────
+
+# ─────────────────────────────────────
+# Window
+# ─────────────────────────────────────
+
+window-width = 135
+window-height = 40
+
+# Небольшие внутренние отступы
+window-padding-x = 8
+window-padding-y = 6
+
+# Равномерно распределять лишние пиксели по краям
+window-padding-balance = true
+
+# auto = обычный системный titlebar
+window-decoration = auto
+
+
+# ─────────────────────────────────────
+# Font
+# ─────────────────────────────────────
+
+font-size = 13
+
+# Ghostty и так имеет хороший дефолтный шрифт.
+# Если захочешь свой:
+font-family = JetBrainsMono Nerd Font
+
+# Если не любишь лигатуры:
+# font-feature = -calt,-liga,-dlig
+
+
+# ─────────────────────────────────────
+# Cursor
+# ─────────────────────────────────────
+
+cursor-style = block
+cursor-style-blink = false
+
+# Убирать мышь, когда печатаешь
+mouse-hide-while-typing = true
+
+
+# ─────────────────────────────────────
+# Clipboard / mouse
+# ─────────────────────────────────────
+
+# Выделил текст -> сразу попал и в обычный clipboard
+copy-on-select = clipboard
+
+# Shift всегда можно использовать для выделения,
+# даже внутри приложений, которые перехватывают мышь
+mouse-shift-capture = never
+
+
+# ─────────────────────────────────────
+# Scrollback
+# ─────────────────────────────────────
+
+# 50 MB истории на терминальную поверхность
+scrollback-limit = 50000000
+
+# Не показывать scrollbar
+scrollbar = never
+
+
+# ─────────────────────────────────────
+# Shell
+# ─────────────────────────────────────
+
+shell-integration = detect
+
+# Новые окна/вкладки/split'ы открывать в текущей директории
+window-inherit-working-directory = true
+tab-inherit-working-directory = true
+split-inherit-working-directory = true
+
+
+# ─────────────────────────────────────
+# Misc
+# ─────────────────────────────────────
+
+# Защита от совсем нечитаемых цветов некоторых TUI
+minimum-contrast = 1.1
+
+# Ссылки Ctrl+Click
+link-url = true
+theme = noctalia

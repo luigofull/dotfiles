@@ -1,0 +1,62 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+	  // Title, sep
+	  // OS, Ker, PKG, break TPM, BIOS, UpT, sep
+    "title",
+    "separator",
+
+    "os",
+    "kernel",
+    "packages",
+    "break",
+    "datetime",
+    "locale",
+    "users",
+
+    "separator",
+    
+    "monitor",
+    "sound",
+
+    "separator",
+    
+    "wm",
+    "shell",
+    "terminal",
+    "editor",
+
+    "separator",
+    
+    "cpu",
+    "break",
+    "cpucache",
+    "cpuusage",
+
+    "separator",
+    
+    "gpu",
+    
+    "separator",
+    
+    "memory",
+    
+    "separator",
+    
+    "disk",
+    
+    "separator",
+    "publicip",
+    "localip",
+    "dns",
+    "wifi",
+    
+    "separator",
+
+    "tpm",
+    "bios",
+    "uptime",
+    "break",
+    "colors"
+  ]
+}
